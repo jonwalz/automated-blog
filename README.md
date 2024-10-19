@@ -53,18 +53,13 @@ The server will start on `http://localhost:3000`.
 
 ## API Endpoints
 
-- `GET /`: Returns a welcome message
-- `GET /run-automation`: Triggers the AI automation flow
+- `GET /run`: Triggers the AI automation flow
 
 ## Project Structure
 
 - `src/index.ts`: Main application file containing the automation flow logic
 - `src/ghost-admin-api.d.ts`: Type definitions for the Ghost Admin API
 - `.env`: Environment variables (API keys)
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
 
 ## License
 
